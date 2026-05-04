@@ -15,9 +15,8 @@ export default function CTABanner() {
       <div className="container relative z-10">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

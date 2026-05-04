@@ -35,13 +35,12 @@ export default function WhyChooseUs() {
 
       <div className="container relative z-10">
         {/* Section Header */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center mb-16 md:mb-20"
-        >
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16 md:mb-20"
+          >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Why Choose 4-AquaFlow?
           </h2>
@@ -58,7 +57,7 @@ export default function WhyChooseUs() {
               <motion.div
                 key={index}
                 initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                  animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/15 transition-all duration-300"
@@ -80,13 +79,12 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Commitments */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mt-16 md:mt-20 pt-16 md:pt-20 border-t border-white/20"
-        >
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mt-16 md:mt-20 pt-16 md:pt-20 border-t border-white/20"
+          >
           <div className="text-center">
             <div className="text-xl font-bold mb-2">Licensed & Insured</div>
             <p className="text-blue-100">Our technicians are fully certified and insured for your protection.</p>
