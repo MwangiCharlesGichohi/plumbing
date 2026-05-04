@@ -89,12 +89,14 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-400">+254 (0) 712 345 678</span>
+                <a href="https://wa.me/254743229214" className="text-gray-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
+                  +254 743 229 214
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@4aquaflow.com" className="text-gray-400 hover:text-white transition-colors">
-                  info@4aquaflow.com
+                <a href="mailto:gwosaha01@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                  gwosaha01@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">

@@ -32,11 +32,13 @@ export default function CTABanner() {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="tel:+254712345678"
+              href="https://wa.me/254743229214"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 rounded-lg font-bold text-lg hover:bg-blue-50 shadow-lg transition-all duration-200 group"
             >
               <Phone className="w-5 h-5 mr-3" />
-              Call Now
+              WhatsApp Now
             </motion.a>
             <motion.button
               whileHover={{ scale: 1.05 }}

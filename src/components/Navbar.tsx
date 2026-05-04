@@ -41,11 +41,13 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+254712345678"
+              href="https://wa.me/254743229214"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 text-blue-600 font-semibold hover:text-blue-700"
             >
               <Phone className="w-4 h-4" />
-              <span className="hidden lg:inline">+254 712 345 678</span>
+              <span className="hidden lg:inline">+254 743 229 214</span>
             </a>
             <button className="btn btn-primary text-sm">Book Now</button>
           </div>
@@ -87,11 +89,13 @@ export default function Navbar() {
             ))}
             <div className="pt-4 space-y-3">
               <a
-                href="tel:+254712345678"
+                href="https://wa.me/254743229214"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 text-blue-600 font-semibold"
               >
                 <Phone className="w-4 h-4" />
-                +254 712 345 678
+                +254 743 229 214
               </a>
               <button className="w-full btn btn-primary">Book Now</button>
             </div>
