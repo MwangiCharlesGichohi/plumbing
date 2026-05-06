@@ -1,6 +1,7 @@
 "use client";
 
 import { Menu, X, Phone } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -18,9 +19,9 @@ export default function Navbar() {
       <div className="container">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-lg group-hover:shadow-md transition-shadow">
-              4A
+          <a href="/" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 rounded-lg overflow-hidden">
+              <Image src="/assets/images/aquaflow-logo.png" alt="4-AquaFlow" width={40} height={40} />
             </div>
             <span className="font-bold text-lg text-gray-900 hidden sm:inline">4-AquaFlow</span>
           </a>
