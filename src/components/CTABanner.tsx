@@ -40,7 +40,9 @@ export default function CTABanner() {
             <motion.a
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              href="tel:+254743239214"
+              href="https://wa.me/254743239214"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white/10 transition-all duration-200 group"
             >
               <Phone className="w-5 h-5 mr-3" />
