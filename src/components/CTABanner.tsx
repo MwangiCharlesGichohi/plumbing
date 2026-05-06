@@ -29,24 +29,23 @@ export default function CTABanner() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://wa.me/254743229214"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 rounded-lg font-bold text-lg hover:bg-blue-50 shadow-lg transition-all duration-200 group"
-            >
-              <Phone className="w-5 h-5 mr-3" />
-              WhatsApp Now
-            </motion.a>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white/10 transition-all duration-200 group"
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
+              href="#contact"
+              className="inline-flex items-center justify-center px-8 py-4 bg-amber-400 text-gray-900 rounded-lg font-bold text-lg hover:bg-amber-300 shadow-2xl transition-all duration-200 group"
             >
               <MessageSquare className="w-5 h-5 mr-3" />
               Get Quote
-            </motion.button>
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
+              href="tel:+254743239214"
+              className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white/10 transition-all duration-200 group"
+            >
+              <Phone className="w-5 h-5 mr-3" />
+              Call Now
+            </motion.a>
           </div>
 
           {/* Trust Statement */}

@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Services from "../components/Services";
 import WhyChooseUs from "../components/WhyChooseUs";
 import CTABanner from "../components/CTABanner";
+import FinalCTA from "../components/FinalCTA";
 import Footer from "../components/Footer";
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function HomePage() {
         <div id="contact">
           <CTABanner />
         </div>
+        <FinalCTA />
       </main>
       <Footer />
     </>
